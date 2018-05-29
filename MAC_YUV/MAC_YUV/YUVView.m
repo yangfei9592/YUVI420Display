@@ -29,8 +29,7 @@
         {
             NSOpenGLPFADoubleBuffer,
             NSOpenGLPFADepthSize, 24,
-            NSOpenGLPFAOpenGLProfile,
-            NSOpenGLProfileVersion3_2Core,
+            NSOpenGLPFAOpenGLProfile,NSOpenGLProfileVersion3_2Core,
         };
         
         NSOpenGLPixelFormat *pf = [[NSOpenGLPixelFormat alloc] initWithAttributes:attrs];
